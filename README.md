@@ -1,9 +1,6 @@
-#####################################
 # README
-# Xilinx Vivado+Vitits Install
-#
-# Date (y/m/d): 2022/09/17
-#####################################
+## Xilinx Vivado+Vitits Install
+### Date (y/m/d): 2022/09/17
 
 ## AGENDA
 - vivado+vitis installation
@@ -12,7 +9,6 @@
 - end vivado+vitis installation
 - example helloworld (vivado bd + vitis)
 
-#####################################
 ## DOCUMENTATION
 - Vivado archive:
 	https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html
@@ -24,7 +20,6 @@
 - Vivado FIX - Cannot start the vivado GUI Multiple Display Issue
 	https://support.xilinx.com/s/article/72614?language=en_US
 
-#####################################
 ## DOWNLOAD Vivado 2019.2
 - Go to:
 	https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_Unified_2019.2_1106_2127_Lin64.bin
