@@ -1,1 +1,0 @@
-vivado -source create_proj.tcl &
