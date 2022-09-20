@@ -36,4 +36,4 @@ sudo cp -rf \
 	boards/vivado-boards-master/new/board_files/* \
 	${install_dir}/Vivado/${version}/data/boards/board_files/
 
-chmod +x run.sh
+chmod +x vivadostart.sh
