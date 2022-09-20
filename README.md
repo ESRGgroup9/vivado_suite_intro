@@ -1,5 +1,4 @@
 # Xilinx Vivado+Vitits Install README
-Date (y/m/d): 2022/09/17
 
 ## AGENDA
 - vivado+vitis installation
@@ -21,20 +20,24 @@ Date (y/m/d): 2022/09/17
 
 ## STEPS
 ### DOWNLOAD Vivado 2019.2
-- Go to: https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_Unified_2019.2_1106_2127_Lin64.bin
-- Create an account and login
-- Fill form to be able to download Vivado
-- Make sure you downloaded ```Xilinx_Unified_2019.2_1106_2127_Lin64.bin``` into your ```~/Downloads``` folder
+<ol>
+	<li>Go to: https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_Unified_2019.2_1106_2127_Lin64.bin</li>
+	<li>Create an account and login</li>
+	<li>Fill form to be able to download Vivado</li>
+	<li>Make sure you downloaded ```Xilinx_Unified_2019.2_1106_2127_Lin64.bin``` into your ```~/Downloads``` folder</li>
+</ol>
 
 ### SETUP
-Open your terminal. Type:
-```shell$ cd ~```
-```shell$ git clone https://github.com/ESRGgroup9/vivado_suite_intro.git```
-```shell$ cd vivado_suite_intro ```
-```shell$ mkdir bin```
-```shell$ mv ~/Downloads/Xilinx_Unified_2019.2_1106_2127_Lin64.bin bin/```
-```shell$ chmod +x ./install.sh ```
-```shell$ sudo ./install.sh```
+Open your terminal. Type: 
+```
+shell$ cd ~
+shell$ git clone https://github.com/ESRGgroup9/vivado_suite_intro.git
+shell$ cd vivado_suite_intro
+shell$ mkdir bin
+shell$ mv ~/Downloads/Xilinx_Unified_2019.2_1106_2127_Lin64.bin bin/
+shell$ chmod +x ./install.sh 
+shell$ sudo ./install.sh
+```
 
 ### INSTALL
 GUIDE: https://www.xilinx.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2019_2/ug973-vivado-release-notes-install-license.pdf
@@ -46,5 +49,7 @@ GUIDE: https://www.xilinx.com/content/dam/xilinx/support/documents/sw_manuals/xi
 - Select Product to Install: Select Vitis (this will install both Vivado and Vitis)
 
 ## RUN VIVADO
-```shell$ ./vivadostart.sh```
-```shell$ vivado &```
+```
+shell$ ./vivadostart.sh
+shell$ vivado &
+```
